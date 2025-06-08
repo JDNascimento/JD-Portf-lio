@@ -1,0 +1,169 @@
+<!DOCTYPE html> <!-- Define o tipo de documento como HTML5 -->
+<html lang="pt-BR"> <!-- Define o idioma da página como português do Brasil -->
+<head>
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres para suportar acentos e caracteres especiais -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Garante que a página seja responsiva em dispositivos móveis -->
+    <meta name="description" content="Portfólio e modelo para projetos"> <!-- Define uma descrição curta da página para SEO -->
+    <meta name="author" content="Jonathan Diego de Brito Nascimento"> <!-- Define o autor do site -->
+    <meta name="keywords" content="desenvolvedor, analista de sistemas, full-stack, front-end, back-end, Python, JavaScript, desenvolvimento web, programador, portfólio, tecnologia, software, aplicações web, banco de dados, API, UI/UX, freelancer"> <!-- Define palavras-chave para melhorar a indexação nos motores de busca -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Garante a compatibilidade com versões mais antigas do Internet Explorer -->
+    <meta name="robots" content="index, follow"> <!-- Instrui os motores de busca a indexar e seguir os links da página -->
+    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+    
+    <title>🎓JD | Soluções Digitais</title> <!-- Define o título da página, exibido na aba do navegador -->
+    
+    <link rel="stylesheet" href="/styles pg1.css"> <!-- Importa um arquivo CSS externo para estilizar a página -->
+    <link rel="icon" type="image/svg+xml" href="/imagem/jd.1.gif" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Otimiza o carregamento de fontes externas -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> <!-- Importa ícones da biblioteca Font Awesome -->
+</head>
+<body>
+        <div class="vid">
+            <video src="#" autoplay muted loop></video>
+        </div>
+        <header class="navbar" id="nav">
+            <a href="/index.html"><img class="logo" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWN0aTNtaXp0ODBlYXFuaXl2ZDMxamN3cTNzOXZ6Z3RldXowMzc4eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wnHNwC32oOWC9Qd9Bp/giphy.gif" alt="Quill"></a>
+        
+             <nav id="menu">
+            <a href="/index.html" class="active">🏠Home</a>
+            <a href="/index pg1.html">🛠️Serviços</a>
+            <a href="/index pg2.html">💼Habilidades</a>
+            <a href="/index pg3.html">🎓Educação</a>
+            <a href="/index pg4.html">📈Experiências</a>
+            <a href="/index pg5.html">🚀Estúdio J.Denv</a>  
+        </nav>
+        
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        </header>
+    
+        <script src="script.js"></script>
+    
+    <section class="home">
+        
+        <div class="home-content">
+            <h1><span>Serviços</span></h1>
+            <h3 class="typing-text"><span></span></h3>
+            <br>
+            <br>
+            <div class="habilidades">
+                           <h2 class="frase" data-id="1">1. Desenvolvimento de Front-End:</h2><br>
+                           <p class="texto" id="texto-1">- Criação de interfaces de usuário com HTML, CSS e JavaScript.<br>
+                           - Uso de frameworks como React, Angular ou Vue.js para construir interfaces interativas.<br>
+                           - Responsividade e design adaptável para diferentes dispositivos (mobile-first).</p><br>
+                           <br>
+                           <h2 class="frase" data-id="2">2. Desenvolvimento de Back-End</h2><br>
+                           <p class="texto" id="texto-2">- Desenvolvimento de servidores e lógica de negócios com linguagens como Node.js, Python, Ruby, Java, PHP ou .NET.<br>
+                           - Criação e gestão de APIs (RESTful ou GraphQL) para comunicação entre o front-end e o back-end.<br>
+                           - Implementação de autenticação, autorização e segurança na aplicação.</p><br>
+                           <br>
+                           <h2 class="frase" data-id="3">3. Gestão de Banco de Dados:</h2><br>
+                           <p class="texto" id="texto-3">- Criação e manutenção de bancos de dados relacionais (MySQL, PostgreSQL) e não-relacionais (MongoDB, Firebase).<br>
+                           - Criação de consultas e manipulação de dados com SQL ou outras linguagens adequadas ao banco de dados.<br>
+                           - Integração do banco de dados com a aplicação para persistência de dados.</p><br>
+                           <br>
+                           <h2 class="frase" data-id="4">4. Desenvolvimento de Aplicações Web:</h2><br>
+                           <p class="texto" id="texto-4">- Criação de aplicações web completas que envolvem tanto o front-end quanto o back-end.<br>
+                           - Gerenciamento de servidores e infraestrutura para hospedar aplicações web.<br>
+                           - Configuração e automação de deploy (CI/CD).</p><br>
+                           <br>
+                           <h2 class="frase" data-id="5">5. Integração de Ferramentas e APIs Externas:</h2><br>
+                           <p class="texto" id="texto-5">- Integração com APIs de terceiros (pagamento, redes sociais, geolocalização, etc.).<br>
+                           - Desenvolvimento de sistemas que se conectam a outras plataformas ou serviços, permitindo a troca de dados e funcionalidade.</p><br>
+                           <br>
+                           <h2 class="frase" data-id="6">6. Testes e Debugging:</h2><br>
+                           <p  class="texto" id="texto-6">- Criação de testes automatizados para garantir que as funcionalidades estejam funcionando corretamente (testes unitários, integração, etc.).<br>
+                           - Identificação e correção de bugs em diferentes camadas da aplicação.</p><br>
+                           <br>
+                           <h2 class="frase" data-id="7">7. Otimização de Performance:</h2><br>
+                           <p class="texto" id="texto-7">- Melhorias no desempenho do front-end e back-end, incluindo otimização de tempo de resposta e uso de memória.<br>
+                           - Melhoria da performance do banco de dados com índices, caching, entre outras técnicas.</p><br>
+                           <br>
+                           <h2 class="frase" data-id="8">8. Gerenciamento de Versionamento de Código:</h2><br>
+                           <p class="texto" id="texto-8">- Uso de ferramentas como Git e GitHub/GitLab para versionamento e colaboração no desenvolvimento de software.</p><br>
+                           <br>
+                           <h2 class="frase" data-id="9">9. Desenvolvimento de Aplicações Móveis:</h2><br>
+                           <p class="texto" id="texto-9">- Criação de aplicativos móveis híbridos com tecnologias como React Native ou Flutter, ou até mesmo aplicativos nativos para iOS e Android.</p><br>
+
+                           <script>
+                            document.addEventListener("DOMContentLoaded", function () {
+                                let frases = document.querySelectorAll(".frase");
+                                let textos = document.querySelectorAll(".certificado");
+                            
+                                frases.forEach(frase => {
+                                    frase.addEventListener("click", function () {
+                                        let id = this.getAttribute("data-id");
+                                        let texto = document.getElementById("certificado-" + id);
+                            
+                                        // Verifica se está visível
+                                        if (texto.style.display === "block") {
+                                            texto.style.display = "none";
+                                        } else {
+                                            // Esconde todos
+                                            textos.forEach(t => t.style.display = "none");
+                            
+                                            // Mostra o selecionado
+                                            texto.style.display = "block";
+                                        }
+                                    });
+                                });
+                            });
+                            </script>
+                            
+
+                           <script>
+                            document.addEventListener("DOMContentLoaded", function () {
+                                let frases = document.querySelectorAll(".frase");
+                                let textos = document.querySelectorAll(".texto");
+                    
+                                frases.forEach(frase => {
+                                    frase.addEventListener("click", function () {
+                                        let id = this.getAttribute("data-id");
+                                        let texto = document.getElementById("texto-" + id);
+                    
+                                        // Esconder todos os textos antes de abrir o novo
+                                        textos.forEach(t => t.style.display = "none");
+                    
+                                        // Mostrar o texto correspondente à frase clicada
+                                        texto.style.display = "block";
+                                    });
+                                });
+                            });
+                        </script>
+
+        
+            <div class="social-icons" >
+                <a href="https://www.linkedin.com/in/jonathan-brito-4b57a22b4/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/jd.arteemmiriti/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/Jonsperrow"target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.youtube.com/@jd_experiencias_interativas"target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="end">
+            <a href="https://wa.me/5591980706435?text=Ola,%20preciso%20dos%20seus%20servicos%20como%20desenvolvedor,%20me%20chamo
+            "target="_blank" class="btn">Contrate-me</a>
+        </div>
+    </section>
+
+
+    <footer>
+        <p class="footer">COPYRIGHT © 2025 BY 🎓JD | SOLUÇÕES DIGITAIS</p>
+    </footer>
+
+                    <!-- Ícone Flutuante para abrir o chat -->
+<div id="chat-launcher" style="position:fixed; bottom:20px; right:20px; background:#16213e; color:#fff; border-radius:50%; width:80px; height:80px; display:flex; align-items:center; justify-content:center;  cursor:pointer; z-index:9998;" onclick="toggleChat(true)">
+  <img class="bot" src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3aWFvaGp3d2NqczJxemJ0a2hjMGZlZjFwemFjOXR3bHgxNW13dDdkZCZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/GQlUu7wLzZ7iGNhzQJ/giphy.gif" alt="Quill">
+</div>
+
+<!-- Painel Oculto do JD|Dev Chatbot -->
+<div id="jddev-chat-panel" style="position:fixed; right:0; top:0; height:100vh; width:350px; background:#1a1a2e; color:#fff; box-shadow:-2px 0 10px rgba(0,0,0,0.3);  z-index:9999; display:none; flex-direction:column;">
+  <div style="background:#16213e; padding:1rem; display:flex; align-items:center; justify-content:space-between;">
+    <h2 style="margin:0; font-size:2rem;">🤖 JD|Dev</h2>
+    <button onclick="toggleChat(false)" style="background:none; border:none; color:#fff; font-size:1.2rem; cursor:pointer;">✖</button>
+  </div>
+
+  <div id="chat-output" style="flex:1; padding:1rem; overflow-y:auto; font-size:1.5rem;"></div>
+
+  <div style="padding:1rem; border-top:1px solid #333;">
+    <input id="chat-input" type="text" placeholder="Digite sua pergunta..." style="width:100%; padding:0.5rem; border:none; border-radius:5px;" onkeydown="if(event.key==='Enter'){sendToDialogflow()}" />
+  </div>
+</div>
+</body>
