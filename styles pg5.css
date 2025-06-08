@@ -74,14 +74,6 @@ header{
     transition: 0.3s ease;
 }
 
-.bot{box-shadow: 0 0 8px rgb(1, 2, 1),
-    0 0 10px rgb(255, 255, 255);
-    border-radius: 50rem;
-    width: 7rem;
-    height: 7rem;
-    cursor: pointer;
-    transition: 0.3s ease;
-}
 
 .logo:hover{
     transform: scale(1.1);
