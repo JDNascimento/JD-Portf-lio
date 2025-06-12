@@ -111,7 +111,7 @@ nav.a{
 section{
     min-height: 100vh;
     padding: 5rem 9% 5rem;
-    margin-top: 40px;
+    margin-top: 0px;
 }
 
 .home{
@@ -120,6 +120,7 @@ section{
     align-items: center;
     gap: 8rem;
     background-color: transparent;
+    text-align: center;
 }
 
 .studio{
