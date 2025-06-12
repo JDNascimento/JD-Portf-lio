@@ -213,7 +213,13 @@ span{
 
 .certificado {
     display: none;
-  }
+}
+
+.habilidades{
+    padding: 5%;
+    background-color: rgba(94, 56, 56, 0.349);
+    border-radius: 5%;
+}
 
 .frase {
     font-size: 1.7rem;
@@ -222,8 +228,6 @@ span{
     font-family: "Merriweather", serif;
     color: aquamarine;
     text-shadow: 0 1px 0 rgb(0, 0, 0);
-    background-color: rgba(94, 56, 56, 0.349);
-    display: inline;
 }
 
 .texto {
@@ -232,8 +236,6 @@ span{
     text-shadow: 0 1px 0 rgb(0, 0, 0);
     text-align: justify;
     font-family: "Merriweather", serif;
-    background-color: rgba(94, 56, 56, 0.349);
-    display: inline;
 }
 
 

@@ -234,7 +234,9 @@ span{
 }
 
 .habilidades{
-    margin: 1rem;
+    padding: 5%;
+    background-color: rgba(94, 56, 56, 0.349);
+    border-radius: 5%;
 }
 
 .frase {
