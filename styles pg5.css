@@ -115,15 +115,17 @@ section{
     margin-top: 0px;
 }
 
-.home{
+.home-content{
     margin-top: -2%;
     margin-bottom: -5%;
-    display: flex;
+    padding-left: 20%;
+    padding-right: 20%;
     justify-content: center;
     align-items: center;
     gap: 15rem;
-    font-size: medium;
     text-align: left;
+    background-color:rgba(94, 56, 56, 0.349);
+    border-radius: 5%;
 }
 
 .studio{
@@ -213,7 +215,7 @@ ul {
 
 p {
     font-family: "Merriweather", serif;
-    font-size: 1.6rem;
+    font-size: 2.3rem;
     color: aquamarine;
     text-shadow: 0 0 5px rgb(143, 0, 0), 0 0 7px rgb(0, 0, 0);
     text-align: justify;
@@ -361,9 +363,7 @@ p {
         font-size: 1px;
         gap: 10px;
     }
-    .studio img {
-            zoom: 82%;
-    }
+    
 
 }
 
@@ -405,9 +405,7 @@ p {
         font-size: 1px;
         gap: 10px;
     }
-    .studio img {
-            zoom: 72%;
-    }
+    
 }
 
 /* Estilos para mobile */
@@ -449,9 +447,6 @@ p {
         font-size: 1px;
         gap: 10px;
     }
-    .studio img {
-            zoom: 60%;
-    }
 }
 
 @media only screen and (max-width: 480px){
@@ -476,15 +471,5 @@ p {
     animation: words 10s infinite;
     font-family: "Doto", sans-serif;
     font-size: 8vw;
-    }   
-     .home-content{
-        flex-direction: column;
-        width: 37rem;
-        height: auto;
-        font-size: 1px;
-        gap: 10px;
-    }
-    .studio img {
-            zoom: 44%;
-    }
     }    
+}
