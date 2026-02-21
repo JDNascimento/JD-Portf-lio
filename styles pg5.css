@@ -132,14 +132,7 @@ section{
     
 }
 
-.studio{
-    display: flex; 
-    flex-direction: column;
-    padding: 30px;
-    background-color: rgba(94, 56, 56, 0.349);
-    border-radius: 25px;
-    align-items: center;
-}
+
 
 .typing-text{
     font-size: 30px;
